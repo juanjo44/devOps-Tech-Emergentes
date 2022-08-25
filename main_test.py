@@ -11,4 +11,4 @@ def test_index_route():
     
 def test_index_route_failing():
     response = client.get('/items/1000')
-    assert response.status_code == 202
+    assert response.status_code == 200
